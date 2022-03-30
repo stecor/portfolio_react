@@ -22,7 +22,7 @@ const App = () => {
             <p>
               Donec interdum, odio a iaculis dapibus, neque diam egestas tortor,
               a pellentesque enim lectus sed nisi. Nam ut nisl ligula. Nulla eu
-              sapien sed dolor tincidunt dictum.{' '}
+              sapien sed dolor tincidunt dictum.
             </p>
 
             <Link
