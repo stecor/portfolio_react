@@ -1,6 +1,7 @@
 import React from 'react'
 import InfoSection from './component/info-section'
 import MenuSection from './component/menu-section'
+import Profile from './component/Profile'
 import './css/contact.css'
 
 const email = process.env.REACT_APP_KEY
@@ -35,24 +36,9 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className='contact-section'>
-          <div className='contact-info'>
-            <h1>Contact Us</h1>
-            <div className='contact-box'>
-              <h5>Phone</h5>
-              <p>(453) 456 4536</p>
-            </div>
 
-            <div className='contact-box'>
-              <h5>Email</h5>
-              <p>JaneJohnson@gmail.com</p>
-            </div>
-
-            <div className='contact-box'>
-              <h5>Address</h5>
-              <p>456 Grant ave, Hamilton ON L8C 4K5</p>
-            </div>
-          </div>
+        <div className='home'>
+          <Profile />
         </div>
       </section>
     </div>

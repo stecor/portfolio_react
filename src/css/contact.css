@@ -1,9 +1,9 @@
-.contact .info-section{
+.contact .info-section {
   padding: 56px;
   width: 35%;
 }
 
-.contact .content-area{
+.contact .content-area {
   background: #fefefe;
   margin-left: 40%;
   background: #fff;
@@ -12,7 +12,7 @@
   /*padding: 0 0 0 25%; */
 }
 
-.contact .contact-section{
+.contact .contact-section {
   vertical-align: top;
   display: inline-block;
   padding: 56px;
@@ -20,7 +20,7 @@
   float: right;
 }
 
-.contact .form-section{
+.contact .form-section {
   overflow-y: hidden;
   overflow-x: hidden;
   position: absolute;
@@ -31,20 +31,20 @@
   background: #272727;
   color: #fefefe;
   padding: 46px;
-  -webkit-box-shadow: 9px 20px 74px 6px rgba(3,3,3,0.34);
-  -moz-box-shadow: 9px 20px 74px 6px rgba(3,3,3,0.34);
-  box-shadow: 9px 20px 74px 6px rgba(3,3,3,0.34);
+  -webkit-box-shadow: 9px 20px 74px 6px rgba(3, 3, 3, 0.34);
+  -moz-box-shadow: 9px 20px 74px 6px rgba(3, 3, 3, 0.34);
+  box-shadow: 9px 20px 74px 6px rgba(3, 3, 3, 0.34);
 }
 
-.contact h4{
+.contact h4 {
   font-size: 1.3rem;
   margin-bottom: 4rem;
   margin-top: 2rem;
 }
 
-input[type="text"],
-input[type="email"],
-textarea{
+input[type='text'],
+input[type='email'],
+textarea {
   width: 100%;
   background: transparent;
   border: none;
@@ -56,8 +56,8 @@ textarea{
   padding: 15px 0;
 }
 
-button[type="submit"]{
-  background:  #4b21ff;
+button[type='submit'] {
+  background: #4b21ff;
   border: none;
   font-size: 1rem;
   -webkit-border-radius: 30px;
@@ -68,56 +68,50 @@ button[type="submit"]{
   padding: 17px 30px;
   text-transform: uppercase;
   width: 100%;
-
 }
 
-.contact .img-container{
+.contact .img-container {
   display: inline-block;
   width: 30%;
   position: relative;
   height: 100%;
 }
 
-.contact-info{
-
+.contact .contact-info h1 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 1rem;
 }
 
-.contact .contact-info  h1{
-    font-size: 2.3rem;
-    font-weight: 500;
-    line-height: 1.2;
-    margin: 0 0 1rem;
-}
-
-.contact .profile span{
+.contact .profile span {
   color: #4b21ff;
 }
 
-.contact-box{
+.contact-box {
   max-width: 600px;
   padding: 30px;
-  -webkit-box-shadow: 0 20px 74px 6px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0 20px 74px 6px rgba(0,0,0,0.12);
-  box-shadow: 0 20px 74px 6px rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.12);
   margin-bottom: 100px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
 
-.contact-box:hover{
-  -webkit-box-shadow: 0 20px 74px 6px rgba(0,0,0,0.22);
-  -moz-box-shadow: 0 20px 74px 6px rgba(0,0,0,0.22);
-  box-shadow: 0 20px 74px 6px rgba(0,0,0,0.22);
-
+.contact-box:hover {
+  -webkit-box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.22);
 }
 
-.contact-box h5{
+.contact-box h5 {
   font-weight: 600;
   font-size: 1.1rem;
   margin: 0 0 1.5rem;
 }
 
-.contact-box p{
+.contact-box p {
   color: #a9a9a9;
   font-weight: 300;
   line-height: 1.4;
@@ -129,52 +123,50 @@ button[type="submit"]{
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 767px) {
-
-  .contact .logo{
+  .contact .logo {
     height: 50px;
-    width:70px;
-    font-size: 1rem
+    width: 70px;
+    font-size: 1rem;
   }
 
-  .contact .menu-icon{
+  .contact .menu-icon {
     top: -3px;
     color: #fff;
     right: 20px;
   }
 
-  .contact .fa-bars{
+  .contact .fa-bars {
     color: #fff !important;
   }
 
-  .contact .info-box{
+  .contact .info-box {
     display: none;
   }
 
-  .contact .info-section{
+  .contact .info-section {
     padding: 10px 20px;
     position: static;
   }
 
-  .contact .content-area{
+  .contact .content-area {
     margin-left: 0;
     width: 100%;
     overflow: auto;
   }
 
-
-  .contact .contact-section{
+  .contact .contact-section {
     width: 100%;
     float: left;
     padding: 20% 20px 0;
   }
 
-  .contact .img-container{
+  .contact .img-container {
     width: 100%;
     padding: 56px 20px 0;
     height: auto;
   }
 
-  .contact  .form-section{
+  .contact .form-section {
     position: static;
     width: 100%;
     height: auto;
@@ -182,38 +174,37 @@ button[type="submit"]{
   }
 }
 
-.primary-btn,.ghost-btn{
+.primary-btn,
+.ghost-btn {
   margin-bottom: 20px !important;
 }
 
-
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991px){
-
-  .contact .content-area{
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact .content-area {
     height: auto;
   }
 
-  .contact .content-area:after{
-    content: "";
+  .contact .content-area:after {
+    content: '';
     display: table;
     clear: both;
   }
 
-  .contact .contact-section{
+  .contact .contact-section {
     width: 70%;
     float: right;
     padding: 20% 20px 0;
   }
 
-  .contact .img-container{
+  .contact .img-container {
     padding: 56px 20px 0;
     float: left;
     height: auto;
     width: 100%;
   }
 
-  .contact  .form-section{
+  .contact .form-section {
     position: static;
     width: 100%;
     float: left;
@@ -222,38 +213,34 @@ button[type="submit"]{
   }
 }
 
-.contact .icon-section{
-
+.contact .icon-section {
 }
 
-.contact .icon-section a{
+.contact .icon-section a {
   font-size: 1.4rem;
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199px)  {
-
-  .content-area{
+@media (min-width: 992px) and (max-width: 1199px) {
+  .content-area {
     height: auto;
   }
 
-
-
-  .contact .contact-section{
+  .contact .contact-section {
     width: 70%;
     float: left;
     padding: 20% 20px 0;
     max-width: 800px;
   }
 
-  .contact .img-container{
+  .contact .img-container {
     padding: 56px 20px 0;
     float: left;
     height: auto;
     width: 100%;
   }
 
-  .contact  .form-section{
+  .contact .form-section {
     position: static;
     width: 100%;
     float: left;
@@ -262,28 +249,23 @@ button[type="submit"]{
   }
 }
 
-
-
 /* Extra large devices (large desktops, 1500px and up)*/
 @media (min-width: 1500px) {
+  .contact .contact-section {
+    width: 70%;
+    float: left;
+    padding: 20% 60px 0;
+    max-width: 800px;
+  }
 
+  .contact .img-container {
+    padding: 56px 20px 0;
+    float: left;
+    padding: 20% 60px 0;
+  }
 
-    .contact .contact-section{
-      width: 70%;
-      float: left;
-      padding: 20% 60px 0;
-      max-width: 800px;
-    }
-
-    .contact .img-container{
-      padding: 56px 20px 0;
-      float: left;
-      padding: 20% 60px 0;
-    }
-
-    .contact  .form-section{
-        left: -250px;
-        width: 500;
-    }
-
+  .contact .form-section {
+    left: -250px;
+    width: 500;
+  }
 }
