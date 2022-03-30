@@ -8,15 +8,15 @@ import { Link } from 'react-router-dom'
 const Portfolio = () => {
   const works = WorkData.map((work, index) => (
     <div key={index}>
-      <div
-        className='project-box'
-        style={{
-          background: `url("${
-            process.env.PUBLIC_URL + work.image
-          }") no-repeat center center`,
-        }}
-      >
-        <Link to={{ pathname: work.link }} target='_blank'>
+      <Link to={{ pathname: work.link }} target='_blank'>
+        <div
+          className='project-box'
+          style={{
+            background: `url("${
+              process.env.PUBLIC_URL + work.image
+            }") no-repeat center center`,
+          }}
+        >
           <div className='grey-bg'>
             <div className='project-info'>
               <div className='project-details'>
@@ -27,8 +27,8 @@ const Portfolio = () => {
               <i className='fa fa-long-arrow-right' aria-hidden='true'></i>
             </div>
           </div>
-        </Link>
-      </div>
+        </div>
+      </Link>
     </div>
   ))
 

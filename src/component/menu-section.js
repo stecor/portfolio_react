@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const MenuSection = (props) => {
+const MenuSection = () => {
   const [toggle, setToggle] = useState(0)
   const menu = () => {
     if (toggle === 0) {
