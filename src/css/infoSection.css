@@ -1,0 +1,111 @@
+.menu-icon {
+  position: fixed;
+  top: 36px;
+  right: 36px;
+  padding: 20px;
+  z-index: 10px;
+}
+
+body {
+  background-color: #4b21ff;
+}
+
+.menu-icon .fa:hover {
+  cursor: pointer;
+}
+
+.menu-icon .fa {
+  font-size: 2rem;
+  color: #4b21ff;
+  z-index: 12;
+}
+
+.primary-btn {
+  background: #4b21ff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-align: center;
+  color: #fefefe;
+  padding: 15px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-right: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.primary-btn:hover {
+  background: #000;
+}
+
+.ghost-btn {
+  border: 4px solid #4b21ff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-align: center;
+  color: #4b21ff;
+  padding: 12px 27px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  padding-right: 42px;
+  padding-left: 42px;
+}
+
+.ghost-btn:hover {
+  color: #000;
+  border-color: #000;
+}
+
+#menu {
+  background: #4b21ff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  transform: translate3d(-100%, 0, 0);
+  top: 100%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+#menu nav {
+  width: 400px;
+  text-align: center;
+}
+
+#menu nav span {
+  font-size: 2.3rem;
+  padding: 1rem;
+  display: inline-block;
+  color: #fff;
+}
+
+#menu nav span:hover {
+  color: #a9a9a9;
+}
+
+#menu-burguer-active #menu {
+  width: 100%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+#menu-burguer-active .menu-icon {
+  color: white;
+  z-index: 12;
+  background-color: #fff;
+  border-radius: 10px;
+}
