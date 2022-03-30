@@ -31,22 +31,6 @@ var workData = [
     title: 'Realties',
     link: 'https://stecor.github.io/realestate-react/',
   },
-  {
-    client: 'Realties',
-    image: '/img/realties.png',
-    year: '2018',
-    type: 'Listing Application',
-    title: 'Realties',
-    link: 'https://stecor.github.io/realestate-react/',
-  },
-  {
-    client: 'Realties',
-    image: '/img/realties.png',
-    year: '2018',
-    type: 'Listing Application',
-    title: 'Realties',
-    link: 'https://stecor.github.io/realestate-react/',
-  },
 ]
 
 export default workData
