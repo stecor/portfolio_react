@@ -31,7 +31,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 56px;
-
+  border: 1px lightgray solid;
   /* max-width: 1000px; */
 }
 
@@ -54,7 +54,7 @@
 }
 
 .grey-bg {
-  background: gray;
+  background: #3006ee;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -66,7 +66,7 @@
 }
 
 .grey-bg:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .grey-bg:hover .project-details {
@@ -84,6 +84,7 @@
   position: absolute;
   width: 100%;
   bottom: 0;
+  color: #fff;
 }
 
 .project-details {
@@ -107,7 +108,7 @@
 
 .fa-long-arrow-right {
   position: absolute;
-  top: 0px;
+  top: 50px;
   right: 56px;
   font-size: 2rem;
 }

@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 import InfoSection from './component/info-section'
 import MenuSection from './component/menu-section'
 import WorkData from './data/workData'
 import './css/portfolio.css'
+import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
   const works = WorkData.map((work, index) => (
@@ -15,15 +16,18 @@ const Portfolio = () => {
           }") no-repeat center center`,
         }}
       >
-        <div className='grey-bg'>
-          <div className='project-info'>
-            <div className='project-details'>
-              Client: {work.client} Year: {work.year} Type: {work.type}
+        <Link to={{ pathname: work.link }} target='_blank'>
+          <div className='grey-bg'>
+            <div className='project-info'>
+              <div className='project-details'>
+                Client: {work.client} Year: {work.year} Type: {work.type}
+              </div>
+
+              <div className='project-title'>{work.title}</div>
+              <i className='fa fa-long-arrow-right' aria-hidden='true'></i>
             </div>
-            <div className='project-title'>{work.title}</div>
-            <i className='fa fa-long-arrow-right' aria-hidden='true'></i>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   ))
