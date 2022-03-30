@@ -10,7 +10,9 @@ const Portfolio = () => {
       <div
         className='project-box'
         style={{
-          background: `url("${work.image}") no-repeat center center`,
+          background: `url("${
+            process.env.PUBLIC_URL + work.image
+          }") no-repeat center center`,
         }}
       >
         <div className='grey-bg'>

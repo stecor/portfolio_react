@@ -1,10 +1,10 @@
 var workData = [
   {
-    client: 'Nike',
-    image: '../images/realtor.jpg',
-    year: '2017',
-    type: 'ecommerce',
-    title: 'The Last Yeezys',
+    client: 'Realtor',
+    image: '/img/realtor.png',
+    year: '2022',
+    type: 'Real Estate Listing',
+    title: 'Real Estate',
   },
   {
     client: 'Airbnb',

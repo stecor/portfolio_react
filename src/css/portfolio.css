@@ -1,22 +1,20 @@
-
-
-.portfolio .info-section{
+.portfolio .info-section {
   width: 25%;
 }
 
-.portfolio h1{
+.portfolio h1 {
   font-weight: 700;
   font-size: 2.5rem;
   text-transform: uppercase;
   margin-bottom: 56px;
 }
 
-.portfolio h5{
+.portfolio h5 {
   font-weight: 500;
   font-size: 1.3rem;
 }
 
-.portfolio .content-area{
+.portfolio .content-area {
   background: #fefefe;
   margin-left: 20%;
   background: #fff;
@@ -24,12 +22,12 @@
   width: 80%;
   min-width: 300px;
   padding: 56px;
-  overflow:scroll;
+  overflow: scroll;
 
   /*padding: 0 0 0 25%; */
 }
 
-.portfolio .project-section{
+.portfolio .project-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 56px;
@@ -37,7 +35,7 @@
   /* max-width: 1000px; */
 }
 
-.portfolio .project-box{
+.portfolio .project-box {
   position: relative;
   padding: 30px;
   transition: all 0.5s ease-in-out;
@@ -49,15 +47,16 @@
   height: 400px;
 }
 
-.portfolio .project-box:hover{
-  -webkit-box-shadow: 0 20px 74px 6px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0 20px 74px 6px rgba(0,0,0,0.12);
-  box-shadow: 0 20px 74px 6px rgba(0,0,0,0.12);
+.portfolio .project-box:hover {
+  -webkit-box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 20px 74px 6px rgba(0, 0, 0, 0.12);
 }
 
-.grey-bg{
-  background: #efefef;
-  position: absolute;top: 0;
+.grey-bg {
+  background: gray;
+  position: absolute;
+  top: 0;
   bottom: 0;
   right: 0;
   left: 0;
@@ -66,112 +65,108 @@
   overflow: hidden;
 }
 
-.grey-bg:hover{
+.grey-bg:hover {
   opacity: 0.9;
 }
 
-.grey-bg:hover .project-details{
+.grey-bg:hover .project-details {
   transform: translate3d(0, 0, 0);
   opacity: 1;
 }
 
-.grey-bg:hover .project-title{
+.grey-bg:hover .project-title {
   transform: translate3d(0, 0, 0);
   opacity: 1;
 }
 
-.project-info{
+.project-info {
   padding: 56px;
   position: absolute;
   width: 100%;
   bottom: 0;
 }
 
-.project-details{
+.project-details {
   position: relative;
   font-size: 1.1rem;
   text-transform: capitalize;
   margin: 0 0 1rem;
   transform: translate3d(-200px, 0, 0);
   opacity: 0;
-  transition:  all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.project-title{
+.project-title {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
   transform: translate3d(-100px, 0, 0);
   opacity: 0;
-  transition:  all 0.3s ease-in-out 0.1s;
+  transition: all 0.3s ease-in-out 0.1s;
 }
 
-.fa-long-arrow-right{
+.fa-long-arrow-right {
   position: absolute;
   top: 0px;
   right: 56px;
   font-size: 2rem;
 }
 
-.portfolio h5{
+.portfolio h5 {
   font-weight: 500;
   font-size: 1.3rem;
   margin-bottom: 1.4rem;
 }
-
-
 
 /* Extra small devices (portrait phones, less than 576px)
  No media query since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 767px) {
-
-  .portfolio .logo{
+  .portfolio .logo {
     height: 50px;
-    width:70px;
-    font-size: 1rem
+    width: 70px;
+    font-size: 1rem;
   }
 
-  .portfolio .menu-icon{
+  .portfolio .menu-icon {
     top: -3px;
     color: #fff;
     right: 20px;
   }
 
-  .portfolio .fa-bars{
+  .portfolio .fa-bars {
     color: #fff !important;
   }
 
-  .portfolio .info-box{
+  .portfolio .info-box {
     display: none;
   }
 
-  .portfolio .info-section{
+  .portfolio .info-section {
     padding: 10px 20px;
     position: static;
   }
 
-  .portfolio .content-area{
+  .portfolio .content-area {
     margin-left: 0;
     width: 100%;
     overflow: auto;
   }
 
-
-  .portfolio .portfolio-section{
+  .portfolio .portfolio-section {
     width: 100%;
     float: left;
     padding: 20% 20px 0;
   }
 
-  .portfolio .img-container{
+  .portfolio .img-container {
     width: 100%;
     padding: 56px 20px 0;
     height: auto;
   }
 
-  .portfolio  .form-section{
+  .portfolio .form-section {
     position: static;
     width: 100%;
     height: auto;
@@ -179,38 +174,37 @@
   }
 }
 
-.primary-btn,.ghost-btn{
+.primary-btn,
+.ghost-btn {
   margin-bottom: 20px !important;
 }
 
-
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991px){
-
-  .portfolio .content-area{
+@media (min-width: 768px) and (max-width: 991px) {
+  .portfolio .content-area {
     height: auto;
   }
 
-  .portfolio .content-area:after{
-    content: "";
+  .portfolio .content-area:after {
+    content: '';
     display: table;
     clear: both;
   }
 
-  .portfolio .portfolio-section{
+  .portfolio .portfolio-section {
     width: 70%;
     float: right;
     padding: 20% 20px 0;
   }
 
-  .portfolio .img-container{
+  .portfolio .img-container {
     padding: 56px 20px 0;
     float: left;
     height: auto;
     width: 100%;
   }
 
-  .portfolio  .form-section{
+  .portfolio .form-section {
     position: static;
     width: 100%;
     float: left;
@@ -219,38 +213,34 @@
   }
 }
 
-.portfolio .icon-section{
-
+.portfolio .icon-section {
 }
 
-.portfolio .icon-section a{
+.portfolio .icon-section a {
   font-size: 1.4rem;
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199px)  {
-
-  .content-area{
+@media (min-width: 992px) and (max-width: 1199px) {
+  .content-area {
     height: auto;
   }
 
-
-
-  .portfolio .portfolio-section{
+  .portfolio .portfolio-section {
     width: 70%;
     float: left;
     padding: 20% 20px 0;
     max-width: 800px;
   }
 
-  .portfolio .img-container{
+  .portfolio .img-container {
     padding: 56px 20px 0;
     float: left;
     height: auto;
     width: 100%;
   }
 
-  .portfolio  .form-section{
+  .portfolio .form-section {
     position: static;
     width: 100%;
     float: left;
@@ -259,28 +249,23 @@
   }
 }
 
-
-
 /* Extra large devices (large desktops, 1500px and up)*/
 @media (min-width: 1500px) {
+  .portfolio .portfolio-section {
+    width: 70%;
+    float: left;
+    padding: 20% 60px 0;
+    max-width: 800px;
+  }
 
+  .portfolio .img-container {
+    padding: 56px 20px 0;
+    float: left;
+    padding: 20% 60px 0;
+  }
 
-    .portfolio .portfolio-section{
-      width: 70%;
-      float: left;
-      padding: 20% 60px 0;
-      max-width: 800px;
-    }
-
-    .portfolio .img-container{
-      padding: 56px 20px 0;
-      float: left;
-      padding: 20% 60px 0;
-    }
-
-    .portfolio  .form-section{
-        left: -250px;
-        width: 500;
-    }
-
+  .portfolio .form-section {
+    left: -250px;
+    width: 500;
+  }
 }
