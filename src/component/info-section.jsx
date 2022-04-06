@@ -11,16 +11,16 @@ const InfoSection = () => {
             href='https://stackoverflow.com/users/7989029/stefano-corra'
             target='_blank'
           >
-            <i className='fa fa-stack-overflow' aria-hidden='true'></i>
+            <i className='fa-brands fa-stack-overflow' aria-hidden='true'></i>
           </a>
           <a href='https://twitter.com/ste_corra' target='_blank'>
-            <i className='fa fa-twitter' aria-hidden='true'></i>
+            <i className='fa-brands fa-twitter' aria-hidden='true'></i>
           </a>
           <a href='https://github.com/stecor' target='_blank'>
-            <i className='fa fa-github' aria-hidden='true'></i>
+            <i className='fa-brands fa-github' aria-hidden='true'></i>
           </a>
           <a href='https://www.linkedin.com/in/stefanocorra/' target='_blank'>
-            <i className='fa fa-linkedin' aria-hidden='true'></i>
+            <i className='fa-brands fa-linkedin' aria-hidden='true'></i>
           </a>
         </div>
       </div>
