@@ -21,7 +21,7 @@ var workData = [
     year: '2017',
     type: 'Application',
     title: 'Music Hall Events',
-    link: 'http://ill-fated-whip.surge.sh/',
+    link: 'https://react-music-hall.vercel.app/',
   },
   {
     client: 'Realties',
