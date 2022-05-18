@@ -29,7 +29,7 @@ var workData = [
     year: '2018',
     type: 'Listing Application',
     title: 'Realties',
-    link: 'https://stecor.github.io/realestate-react/',
+    link: 'https://react-realties.vercel.app/',
   },
 ]
 
