@@ -23,7 +23,7 @@ const Profile = () => {
         <h1>
           Stefano <span>Corra</span>
         </h1>
-        <h5>FrontEnd Developer Developer</h5>
+        <h5>FrontEnd Developer</h5>
         <p>
           A proactive and organized individual with an Associate’s degree in
           Computer Software and a background in developing applications in
