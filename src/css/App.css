@@ -63,8 +63,11 @@
 .home p {
   color: #a9a9a9;
   font-weight: 300;
-  line-height: 1.4;
-  margin: 0 0 2rem;
+  line-height: 1.6;
+  width: 500px;
+  padding-bottom: 50px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -76,6 +79,12 @@
     height: 50px;
     width: 70px;
     font-size: 1rem;
+  }
+
+  .home p {
+    width: 300px;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .home .menu-icon {
@@ -107,6 +116,7 @@
   .home .profile-section {
     width: 100%;
     float: center;
+    color: #4b21ff;
   }
 
   .home .img-container {
@@ -130,7 +140,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .home .profile-section {
     width: 70%;
-    float: right;
+    float: left;
     padding: 20% 20px 0;
   }
 
@@ -147,10 +157,11 @@
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
   .home .profile-section {
-    width: 70%;
+    width: 90%;
     float: left;
     padding: 20% 20px 0;
     max-width: 800px;
+    justify-content: center;
   }
 
   .home .img-container {
