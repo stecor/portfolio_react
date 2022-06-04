@@ -20,10 +20,19 @@ const Portfolio = () => {
           <div className='grey-bg'>
             <div className='project-info'>
               <div className='project-details'>
-                Client: {work.client} Year: {work.year} Type: {work.type}
+                <div className='project-title'>{work.title}</div>
+                <br />
+                <br />
+                <br />
+                Client: {work.client}
+                <br />
+                <br />
+                Year: {work.year}
+                <br />
+                <br />
+                Type: {work.type}
               </div>
 
-              <div className='project-title'>{work.title}</div>
               <i className='fa fa-long-arrow-right' aria-hidden='true'></i>
             </div>
           </div>
