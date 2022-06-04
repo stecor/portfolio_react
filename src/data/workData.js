@@ -4,7 +4,7 @@ var workData = [
     image: '/img/realtor.png',
     year: '2022',
     type: 'Listing Application',
-    title: 'Real Estate',
+    title: 'Realtor Real Estate',
     link: 'https://react-realstate-xi.vercel.app/',
   },
   {
@@ -16,11 +16,11 @@ var workData = [
     link: 'https://react-missao-toronto.vercel.app/',
   },
   {
-    client: 'Music Hall',
+    client: 'The Music Hall',
     image: '/img/music_hall.png',
     year: '2017',
     type: 'Application',
-    title: 'Music Hall Events',
+    title: 'The Music Hall Events',
     link: 'https://react-music-hall.vercel.app/',
   },
   {
@@ -28,8 +28,16 @@ var workData = [
     image: '/img/realties.png',
     year: '2018',
     type: 'Listing Application',
-    title: 'Realties',
+    title: 'Realties Estate - React',
     link: 'https://react-realties.vercel.app/',
+  },
+  {
+    client: 'Chesed',
+    image: '/img/chesedweb.png',
+    year: '2019',
+    type: 'WordPress Application',
+    title: 'Chesed Pais por Adoção',
+    link: 'https://chesedpaisporadocao.org/',
   },
 ]
 
