@@ -27,9 +27,6 @@ const MenuSection = () => {
           <Link to={'./'}>
             <span>Home</span>
           </Link>
-          <Link to={'./'}>
-            <span>About</span>
-          </Link>
           <Link to={'./portfolio'}>
             <span>Portfolio</span>
           </Link>
