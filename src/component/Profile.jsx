@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import Skills from './Skills'
 
 const Profile = () => {
   const pathname = String(window.location.pathname) //returns the current url minus the domain name
@@ -52,7 +51,6 @@ const Profile = () => {
           {path}
         </Link>
       </div>
-      <Skills />
     </div>
   )
 }
