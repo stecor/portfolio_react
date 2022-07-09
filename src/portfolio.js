@@ -43,13 +43,17 @@ const Portfolio = () => {
 
   return (
     <div className='portfolio'>
-      <MenuSection />
-
       <InfoSection />
-
       <section className='content-area'>
-        <div className='title'>
-          <h1>LATEST WORKS</h1>
+        <div className='title' style={{ display: 'flex' }}>
+          <h1 style={{ flex: 1 }}>LATEST WORKS</h1>
+          <Link
+            style={{ alignItems: 'center' }}
+            to={process.env.PUBLIC_URL + '/'}
+            className='ghost-btn'
+          >
+            Home
+          </Link>
         </div>
         <div className='scroll-section'>
           {/* works start */}

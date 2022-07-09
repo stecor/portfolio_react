@@ -44,10 +44,10 @@ body {
   border: 4px solid #4b21ff;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
-  border-radius: 30px;
+  border-radius: 50px;
   text-align: center;
   color: #4b21ff;
-  padding: 12px 27px;
+  padding: 25px 25px;
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 3px;

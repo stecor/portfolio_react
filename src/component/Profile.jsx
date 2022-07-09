@@ -22,7 +22,7 @@ const Profile = () => {
         <h1>
           Stefano <span>Corra</span>
         </h1>
-        <h5>Developer</h5>
+        <h5>Software Developer</h5>
         <p>
           A proactive and organized individual with an Associate degree in
           Computer Software and a background in web applications. As an
@@ -44,11 +44,6 @@ const Profile = () => {
           className='primary-btn'
         >
           Portfolio
-        </Link>
-        <br />
-
-        <Link to={process.env.PUBLIC_URL + url} className='ghost-btn'>
-          {path}
         </Link>
       </div>
     </div>

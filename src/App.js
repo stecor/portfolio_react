@@ -8,7 +8,6 @@ import './css/App.css'
 const App = () => {
   return (
     <div className='home'>
-      <MenuSection />
       <InfoSection />
       <section className='content-area'>
         <div className='img-container'>
